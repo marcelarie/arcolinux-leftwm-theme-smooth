@@ -1,7 +1,0 @@
-[[theme]]
-name = "smooth"
-repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-smooth"
-commit = "*"
-relative_directory = "smooth/"
-version = "0.0.1"
-leftwm_versions = "*"

@@ -1,0 +1,2 @@
+# ArcoLinux Leftwm theme smooth
+

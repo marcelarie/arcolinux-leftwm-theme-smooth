@@ -1,0 +1,15 @@
+[[theme]]
+name = "smooth"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-themes/"
+commit = "*"
+relative_directory = "smooth/"
+version = "0.0.1"
+leftwm_versions = "*"
+
+[[theme]]
+name = "dracula"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-themes/"
+commit = "*"
+relative_directory = "dracula/"
+version = "0.0.2"
+leftwm_versions = "^0.2.7"

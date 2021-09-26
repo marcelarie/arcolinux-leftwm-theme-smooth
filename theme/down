@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
@@ -13,4 +13,4 @@ pkill compton
 pkill picom
 pkill polybar
 pkill conky
-
+pkill dunst

@@ -14,3 +14,5 @@ pkill picom
 pkill polybar
 pkill conky
 pkill dunst
+pkill sxhkd
+pkill volumeicon

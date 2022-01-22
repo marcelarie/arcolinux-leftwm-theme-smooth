@@ -3,4 +3,4 @@ margin = 4
 
 default_border_color = "#333333"
 floating_border_color = "#8dace3"
-focused_border_color = "#504945"
+focused_border_color = "DimGrey"

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
 # Down the last running theme
@@ -9,16 +9,16 @@ fi
 ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
 # keybindings daemon
-sxhkd -c ~/.config/leftwm/sxhkd/sxhkdrc &
+# sxhkd -c ~/.config/leftwm/sxhkd/sxhkdrc &
 
 # diversity of apps to start
-nm-applet &
-pamac-tray &
-xfce4-power-manager &
-numlockx on &
-blueberry-tray &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-/usr/lib/xfce4/notifyd/xfce4-notifyd &
+# nm-applet &
+# pamac-tray &
+# xfce4-power-manager &
+# numlockx on &
+# blueberry-tray &
+# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+# /usr/lib/xfce4/notifyd/xfce4-notifyd &
 volumeicon &
 greenclip daemon &
 #conky -c ~/.config/leftwm/system-overview &
@@ -32,6 +32,8 @@ greenclip daemon &
 #discord &
 #spotify &
 #atom &
+
+xrandr --output DP-0 --auto --output HDMI-0 --auto --scale 2x2 --right-of DP-0 && leftwm-command "SoftReload"
 
 # Boot picom or compton if it exists
 if [ -x "$(command -v picom)" ]; then

@@ -10,6 +10,7 @@ ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
 # keybindings daemon
 # sxhkd -c ~/.config/leftwm/sxhkd/sxhkdrc &
+autorandr multi
 
 # diversity of apps to start
 # nm-applet &
